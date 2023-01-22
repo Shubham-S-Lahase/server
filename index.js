@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 // ENV VARIABLES
-const port = process.env.PORT || 9356;
+const port = process.env.PORT || 6000;
 const db_URL = process.env.DATABASE_URL
 
 
