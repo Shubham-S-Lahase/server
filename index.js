@@ -10,6 +10,7 @@ const db_URL = process.env.DATABASE_URL
 
 
 // CONNECTING TO DB
+mongoose.set('strictQuery', true);
 mongoose.connect(db_URL, () => { console.log('connected to db') })
 
 // CONNECTING TO SERVER
